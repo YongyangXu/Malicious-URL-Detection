@@ -1,1 +1,3 @@
 # Malicious-URL-Detection
+Data Preprocessing and Feature Engineering: Deduplicated and cleansed a dataset of 300,000 URLs from a public blacklist database. Applied Word2Vec for text vectorization and implemented special character handling strategies to enhance the model’s ability to parse complex URL formats.
+Model Development and Performance Optimization: Developed and implemented a convolutional neural network (CNN) using PyTorch, enhanced model generalizability through batch processing and data augmentation strategies. Achieved 92% accuracy and 81% recall on the test set, effectively identifying malicious URLs.
